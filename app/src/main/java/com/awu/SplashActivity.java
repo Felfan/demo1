@@ -21,6 +21,7 @@ public class SplashActivity extends AppCompatActivity {
         if (isFirst) {
             mHandler.sendEmptyMessageDelayed(100, 6000);
         } else {
+            /////
             mHandler.sendEmptyMessageDelayed(200, 6000);
         }
     }
