@@ -1,0 +1,137 @@
+{
+    "statusCode": 200,
+    "statusMsg": "获取成功！",
+    "result": {
+        "moduleList": [
+            {
+                "web_id": "125",
+                "web_name": "品牌推荐",
+                "style_name": "orange",
+                "web_page": "index",
+                "update_time": "1478483437",
+                "web_sort": "9",
+                "web_show": "1",
+                "web_html": null,
+                "web_pic": null,
+                "web_url": "1",
+                "web_cla": "1",
+                "bannerList": [
+                    {
+                        "banner_id": "8",
+                        "banner_title": "bayabaya",
+                        "banner_url": "105",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161021-17211481.jpg",
+                        "banner_pic": "http://image.awu.cn/data/upload/shop/brand/05285658616367578_sm.jpg",
+                        "banner_cla": "5"
+                    },
+                    {
+                        "banner_id": "1",
+                        "banner_title": "巴拉巴拉",
+                        "banner_url": "4",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20160918-16091771.png",
+                        "banner_pic": "http://image.awu.cn/data/upload/shop/brand/05283752876547232_sm.jpg",
+                        "banner_cla": "5"
+                    },
+                    {
+                        "banner_id": "2",
+                        "banner_title": "adidas",
+                        "banner_url": "3",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20160918-16102484.png",
+                        "banner_pic": "http://image.awu.cn/data/upload/shop/brand/05267529079918368_sm.png",
+                        "banner_cla": "5"
+                    },
+                    {
+                        "banner_id": "3",
+                        "banner_title": "耐克",
+                        "banner_url": "53",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161021-11363013.png",
+                        "banner_pic": "http://image.awu.cn/data/upload/shop/brand/05108342605363180_sm.png",
+                        "banner_cla": "5"
+                    },
+                    {
+                        "banner_id": "4",
+                        "banner_title": "南极人",
+                        "banner_url": "23",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161021-11443670.jpg",
+                        "banner_pic": "http://image.awu.cn/data/upload/shop/brand/05267536224028566_sm.png",
+                        "banner_cla": "5"
+                    },
+                    {
+                        "banner_id": "5",
+                        "banner_title": "米妮哈鲁",
+                        "banner_url": "56",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20160921-11592756.png",
+                        "banner_pic": "http://image.awu.cn/data/upload/shop/brand/05267535742078124_sm.png",
+                        "banner_cla": "5"
+                    },
+                    {
+                        "banner_id": "6",
+                        "banner_title": "马克珍妮",
+                        "banner_url": "41",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20160918-16142329.png",
+                        "banner_pic": "http://image.awu.cn/data/upload/shop/brand/05267534232200997_sm.png",
+                        "banner_cla": "5"
+                    },
+                    {
+                        "banner_id": "7",
+                        "banner_title": "361度",
+                        "banner_url": "50",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20160928-10082720.png",
+                        "banner_pic": "http://image.awu.cn/data/upload/shop/brand/05267528188902822_sm.png",
+                        "banner_cla": "5"
+                    },
+                    {
+                        "banner_id": "14",
+                        "banner_title": "棉鞋",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=176",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161101-0929294.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "13",
+                        "banner_title": "毛衣",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=177",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161101-0929558.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "12",
+                        "banner_title": "婴儿套装",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=174",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161101-09305430.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "11",
+                        "banner_title": "羽绒服棉服",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=175",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161101-09313411.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "10",
+                        "banner_title": "家居内衣",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=178",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161101-09320573.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "9",
+                        "banner_title": "教辅玩具",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=179",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161101-09323764.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "sign": "i5yAbvVPr29SVf2TpS/Ko2xPKQgS4GN+fTa2nB+hfIjcpEhhdYoMgBbOjuK6DI2ZlueMOImR+AFNuDC1UnHod2vGk7o73va+kY4dNjnV7XAe6ggh0bXPN84F2iyUYKM2VmtAz1i4SYN3MkF+VgkNDLqF40Z7UhYZPbfEf+zRqIA=",
+    "timestamp": 1478505326
+}

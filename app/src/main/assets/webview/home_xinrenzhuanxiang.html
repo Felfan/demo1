@@ -1,0 +1,1417 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <meta content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+    <meta content="telephone=no" name="format-detection" />  <!--告诉设备忽略将页面中的数字识别为电话号码-->
+    <meta name="keywords" content="啊屋  会员制电商 童装 搭配 安全 时尚 舒适 "/>
+    <meta name="description" content="啊屋是一家专注于会员制电商的互联网企业"/>
+    <!-- 清缓存 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+
+    <link href="http://console.awu.cn/wxshop/templates/default/css/commonWeb.css" type="text/css" rel="stylesheet"/>
+    <script src="http://console.awu.cn/wxshop/templates/default/js/lib/jquery.2.1.1min.js"></script>
+    <script src="http://console.awu.cn/wxshop/templates/default/js/lib/jquery.cookie.js"></script>
+
+    <!-- 友盟统计 new code-->
+
+    <!-- start Dplus -->
+    <script type="text/javascript">!function(a,b){if(!b.__SV){var c,d,e,f;window.dplus=b,b._i=[],b.init=function(a,c,d){function g(a,b){var c=b.split(".");2==c.length&&(a=a[c[0]],b=c[1]),a[b]=function(){a.push([b].concat(Array.prototype.slice.call(arguments,0)))}}var h=b;for("undefined"!=typeof d?h=b[d]=[]:d="dplus",h.people=h.people||[],h.toString=function(a){var b="dplus";return"dplus"!==d&&(b+="."+d),a||(b+=" (stub)"),b},h.people.toString=function(){return h.toString(1)+".people (stub)"},e="disable track track_links track_forms register unregister get_property identify clear set_config get_config get_distinct_id track_pageview register_once track_with_tag time_event people.set people.unset people.delete_user".split(" "),f=0;f<e.length;f++)g(h,e[f]);b._i.push([a,c,d])},b.__SV=1.1,c=a.createElement("script"),c.type="text/javascript",c.charset="utf-8",c.async=!0,c.src="//w.cnzz.com/dplus.php?token=1c166f3d43307gc53be7",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}}(document,window.dplus||[]),dplus.init("1c166f3d43307gc53be7");</script>
+    <!-- end Dplus -->
+</head>
+<body>
+
+
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+<link href="http://console.awu.cn/wxshop/templates/default/new_vip/new_vip.css" rel="stylesheet"
+      type="text/css">
+<!--自适应布局-->
+<!--如果页面的宽度超过了750px，那么页面中html的font-size恒为100px，否则，页面中html的font-size的大小为： 100* (当前页面宽度 / 750) -->
+<script>
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+                resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+                recalc = function () {
+                    var clientWidth = docEl.clientWidth;
+                    if (!clientWidth) return;
+                    docEl.style.fontSize = 100 * (clientWidth / 750) + 'px';
+                    $("body").css("font-size",docEl.style.fontSize);
+                };
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+
+</script>
+<script src="http://console.awu.cn/wxshop/templates/default/new_vip/js/jquery.2.1.1min.js"
+        type="text/javascript"></script>
+
+<div id="content">
+    <div id="page-activity-rule">
+        <div class="rule-img"><img
+                src="http://console.awu.cn/wxshop/templates/default/new_vip/image/rule_bg.png">
+        </div>
+        <div class="rule-btn">
+            <a class="become-member-btn"
+               onclick="goWebPage('开通会员','http://console.awu.cn/wxshop/templates/default/new_vip/memberFree.php')">免费开通会员</a>
+            <div class="show-more-btn">下拉查看新人商品<em></em></div>
+        </div>
+    </div>
+    <div class="activity-desc">
+
+        <div class="activity-rule"><a
+                onclick="goWebPage('活动说明','http://console.awu.cn/wxshop/templates/default/new_vip/activity_rule.php')"><img
+                src="http://console.awu.cn/wxshop/templates/default/new_vip/image/activity_rule_btn.png"></a>
+        </div>
+
+        <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/activity_desc.png">
+    </div>
+
+    <div id="page-activity-content">
+        <div class="content-head">
+            <div class="navtab">
+                <div class="navtab-one fl active menuItem">一元低价</div>
+                <div class="navtab-specialoffer  fl menuItem">特价爆款</div>
+            </div>
+        </div>
+        <div class="activity-goodslist">
+            <!-- 一元低价商品列表 -->
+            <div class="goodslist-one" id="goodslist-one">
+                <img class="goodslist-banner"
+                     src="http://console.awu.cn/wxshop/templates/default/new_vip/image/goodslist-banner1.png">
+                <!-- 循环开始 -->
+                <!-- 循环输出商品列表 -->
+                <!--单个商品 goods-start-->
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9015)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/64/64_05282993966137730_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">kiddyears 16秋新品儿童舒适纯棉 中筒袜</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">14.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥24.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(6992)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/44/44_05239910492221764_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">媛媛公主 16秋新品儿童长裤修身纯色 打底裤</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">19.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥39.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(7805)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/64/64_05252728761796533_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">kiddyears 宝宝手抓铃铛球</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">14.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥24.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9461)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/90/90_05295813396863137_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">lalababy/拉拉布书 婴儿手抓摇铃可啃咬大嘴鱼牙胶 咬咬胶</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">11.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥16.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9462)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/90/90_05295814589258152_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">lalababy/拉拉布书 婴儿手抓摇铃可啃咬彩虹鱼牙胶 咬咬胶</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">15.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥23.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8849)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/90/90_05279396925222411_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">lalababy/拉拉布书 宝宝安抚牙胶摇铃手握系列青蛙宝宝手摇</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">15.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥23.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(3817)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/53/53_05302902802662188_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">梦多多 男童 白蓝 2016春秋款中大童平角内裤四角裤</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">27.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥39.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9079)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/8/8_05284586009569972_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">铭佳童话 16秋新品女童 打底裤</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">16.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥29.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(4952)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="sold-out"
+                                 src="http://console.awu.cn/wxshop/templates/default/new_vip/image/sold-out.png">
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/29/29_05225107098884345_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">南极人 男女婴 黄色 粉色 浅蓝 浅绿 2016新款儿童 口水巾</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">1.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥19.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--单个商品 goods-end-->
+                <!-- 循环结束 -->
+            </div>
+            <!-- 特价爆款列表 -->
+            <div class="goodslist-specialoffer" id="goodslist-specialoffer">
+                <img class="goodslist-banner"
+                     src="http://console.awu.cn/wxshop/templates/default/new_vip/image/goodslist-banner2.png">
+                <!-- 循环开始 -->
+                <!-- 循环输出商品列表 -->
+                <!--单个商品 goods-start-->
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8398)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/59/59_05270034525639352_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">贝优可 16秋新品儿童熊出没系列间条袖 针织衫</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">21.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥39.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8400)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/59/59_05270036573258684_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">贝优可 16秋新品儿童诗书礼樂字摇粒绒家居服 睡衣</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">49.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥79.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9160)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/91/91_05285490763949914_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">吧吖吧吖 16秋新品爱心小白鞋休闲鞋</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">55.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥79.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9103)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/11/11_05284699317219307_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">季季乐 16秋新品儿童休闲时尚百搭 夹克</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">70.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥129.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(7747)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/57/57_05251788934226962_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">迷你巴拉巴拉 16秋新品儿童舒适纯棉休闲 外套</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">64.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥99.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9526)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/3/3_05296835875221102_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">Balabala 巴拉巴拉 16冬新品儿童加厚休闲便服 外套</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">125.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥179.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9522)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="sold-out"
+                                 src="http://console.awu.cn/wxshop/templates/default/new_vip/image/sold-out.png">
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/3/3_05296827443245313_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">Balabala 巴拉巴拉 16冬新品儿童加绒休闲 马甲</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">85.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥139.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9547)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="sold-out"
+                                 src="http://console.awu.cn/wxshop/templates/default/new_vip/image/sold-out.png">
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/3/3_05296954385292136_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">Balabala 巴拉巴拉 16冬新品儿童加厚加绒 运动裤</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">60.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥79.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9275)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/53/53_05293265437893516_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">梦多多 16秋新品内裤短裤儿童平角裤3条装</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">35.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥49.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9262)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/53/53_05293249455597997_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">梦多多 16秋新品卡通背包双肩包书包</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">72.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥109.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8370)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/18/18_05269932219181803_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">361度 16秋冬新品男童运动 运动鞋</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">125.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥159.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(6393)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/54/54_05231281445116201_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">基诺浦 男女童 16秋新品机能柔软中童鞋垫</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">17.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥29.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9434)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/90/90_05295006998724126_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">lalababy/拉拉布书 婴儿益智玩具玩偶手掌书</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">63.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥89.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9431)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/90/90_05294993550291309_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">lalababy/拉拉布书 宝宝益智玩具立体婴儿玩具宝宝魔方拼图</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">29.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥58.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8863)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/90/90_05279415445689894_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">lalababy/拉拉布书 宝宝床挂婴儿床挂内置IC玩具响纸 蜜蜂花拉震</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">23.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥39.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(7215)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/10/10_05242476229549952_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">纯一良品 16秋新品连帽宝宝卫衣</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">39.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥69.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9365)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/25/25_05294132472863691_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">米妮哈鲁 16冬新品儿童韩版加厚满印印花 羽绒服</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">222.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥275.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9339)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/25/25_05294108175852040_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">米妮哈鲁 16冬新品上衣棉服</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">118.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥145.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9549)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/24/24_05297569144993015_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">人本 16冬新品保暖女孩 休闲鞋</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">34.52</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥59.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9567)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/24/24_05297601009776855_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">人本 16秋冬新品加绒保暖 休闲鞋</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">43.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥69.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8722)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/89/89_05277685475040902_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">品轩阁 颜真卿多宝塔碑 字帖</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">48.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥69.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8315)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/20/20_05268238834813737_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">耐克 NIKE AIR MAX TAVAS(TDE) 16秋新品儿童舒适休闲 运动鞋
+                            </div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">267.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥339.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8934)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/44/44_05282173679394579_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">媛媛公主 16秋新品儿童舒适 休闲套装</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">56.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥79.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(5896)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/35/35_05217354523639916_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">巴布豆 男女童 黑色 红色 荧光绿 2016夏季新品儿童篮球鞋</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">89.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥138.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(7689)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/42/42_05250896094104499_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">史努比 16秋新品中小童波点跑步鞋运动鞋</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">86.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥139.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8367)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/18/18_05269924683137417_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">361度 16秋冬新品耐磨防滑 户外鞋</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">134.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥169.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(8554)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/21/21_05275091324272470_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">adidas 阿迪达斯 16秋季新品儿童 运动鞋</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">287.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥359.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="goods">
+
+                    <div class="goods-link" onclick="goAppNewestVipEnjoyGoodsDetail(9354)">
+                        <div class="pic">
+                            <!-- 判断是否还有库存
+                            如果没库存了 显示售罄图标-->
+                            <img class="goods-img"
+                                 src="http://image.awu.cn/data/upload/shop/store/goods/25/25_05294116847031920_750.jpg">
+                        </div>
+                        <div class="goods-info">
+                            <div class="goods-title">米妮哈鲁 16冬新品儿童韩版长袖 卫衣</div>
+                            <div class="price">
+                                <div class="price-only">
+                                    <img class="price-ico"
+                                         src="http://console.awu.cn/wxshop/templates/default/new_vip/image/price-ico.png">
+                                    <div class="price-symbol">￥</div>
+
+                                    <div class="price-number">63.00</div>
+                                </div>
+
+                                <div class="price-origin">啊屋价:<em>￥75.00</em></div>
+                                <div class="btn-buy">
+                                    <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/buy-btn.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--单个商品 goods-end-->
+                <!-- 循环结束 -->
+            </div>
+
+            <div class="become-member-bottom"><a
+                    onclick="goWebPage('开通会员','http://console.awu.cn/wxshop/templates/default/new_vip/memberFree.php')">
+                <img src="http://console.awu.cn/wxshop/templates/default/new_vip/image/become_member.png"></a>
+            </div>
+
+        </div>
+    </div>
+    <script src="http://console.awu.cn/wxshop/templates/default/new_vip/js/stickUp.min.js"
+            type="text/javascript"></script>
+    <script src="http://console.awu.cn/wxshop/templates/default/new_vip/js/layer.js"
+            type="text/javascript"></script>
+    <script language="JavaScript" type="text/javascript">
+    function isWeiXin(){
+        var ua = window.navigator.userAgent.toLowerCase();
+
+        if(ua.match(/MicroMessenger/i) == 'micromessenger'){
+            return true;
+        }else{
+            return false;
+        }
+    }
+   function isIOS(){
+    var ua = window.navigator.userAgent;
+    if (!!ua.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/)){
+        return true;
+    }else{
+        return false;
+    }
+   }
+   function isAndroid(){
+    var ua = window.navigator.userAgent;
+    if (ua.indexOf('Android') > -1 || ua.indexOf('Adr') > -1){
+        return true;
+    }else{
+        return false;
+    }
+   }
+
+    // 微信函数
+        // 微信环境下点击 显示去下载app弹窗 转跳到 应用市场
+    function goDownloadApp(){
+        layer.open({
+          title:'温馨提示'
+          ,anim: 'scale'
+          ,content: '新人专享活动仅支持APP用户享受哦！'
+          ,btn: '立即下载'
+          ,yes: function(index){
+              window.location.href="http://a.app.qq.com/o/simple.jsp?pkgname=com.aw";
+              }
+        });
+    }
+// ls修改 start
+    // app函数
+    // 进入新人专享商详页
+    function goAppNewestVipEnjoyGoodsDetail(goodsID){
+        awapp.goAppNewestVipEnjoyGoodsDetail(goodsID);
+    }
+    // 页面转跳
+    function goWebPage(title,url){
+        awapp.goWebPage(title,url);
+    }
+// ls修改 end
+            // stick up
+    jQuery(function($) {
+    $(document).ready(
+    function() {
+        $('.content-head').stickUp({ parts: { 0:'goodslist-one', 1:'goodslist-specialoffer'}, itemClass: 'menuItem', itemHover: 'actives' });
+     }); });
+    $(document).ready(function() {
+        // 页面动作
+            // 设置首屏高度
+            $("#page-activity-rule").height($(window).height());
+            $(document).on('scroll', function(){
+                var scrollTop=$(document).scrollTop(),
+                specialofferTop=$(".goodslist-specialoffer").offset().top-$(".content-head").height()-1,
+                windowH=$(window).height();
+                if(scrollTop>=windowH){
+                    $(".become-member-bottom").addClass("show");
+                    $("#content").css('padding-bottom',$(".become-member-bottom").height());
+                    if(scrollTop<=specialofferTop){
+                        $(".navtab-one").siblings().removeClass("active");
+                        $(".navtab-one").addClass("active");
+                    }else{
+                        $(".navtab-specialoffer").siblings().removeClass("active");
+                        $(".navtab-specialoffer").addClass("active");
+                    }
+                }else{
+                    $(".become-member-bottom").removeClass("show");
+                    $("#content").css('padding-bottom',0);
+                }
+            }).on('touchstart','.show-more-btn',function(e){
+                $('html, body').animate({scrollTop: $(window).height()}, 300);
+                e.preventDefault();
+                }).on('touchstart','.navtab-one',function(e){
+                    var toTop=$(".goodslist-one").offset().top-$(".content-head").height();
+                    $('html, body').animate({scrollTop: toTop}, 300);
+                    e.preventDefault();
+                }).on('touchstart','.navtab-specialoffer',function(e){
+                    var toTop=$(".goodslist-specialoffer").offset().top-$(".content-head").height();
+                    $('html, body').animate({scrollTop: toTop}, 300);
+                    e.preventDefault();
+                })
+
+            if(isWeiXin()){
+            // 微信环境下操作
+                var htmlTitle='新人专享';
+                document.title = htmlTitle;
+            }
+    });
+
+    </script>
+    <!-- //微信检测-->
+    <!-- <script>
+    var ua = navigator.userAgent.toLowerCase();
+    var isWeixin = ua.indexOf('micromessenger') != -1;
+    var isAndroid = ua.indexOf('android') != -1;
+    var isIos = (ua.indexOf('iphone') != -1) || (ua.indexOf('ipad') != -1);
+    if (!isWeixin) {
+        document.head.innerHTML = '<title>抱歉，出错了</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0"><link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/connect/zh_CN/htmledition/style/wap_err1a9853.css">';
+        document.body.innerHTML = '<div class="page_msg"><div class="inner"><span class="msg_icon_wrp"><i class="icon80_smile"></i></span><div class="msg_content"><h4>请在微信客户端打开链接</h4></div></div></div>';
+    }
+    </script>
+     -->
+    <script src="http://console.awu.cn/wxshop/templates/default/js/lib/jquery.cookie.js"></script>
+
+    <!-- test.awu.cn -->
+    <!-- start Dplus Define
+    <script type="text/javascript">!function(a,b){var c,d;window.__dplusDefineCacheQueue=[],b.define=function(){window.__dplusDefineCacheQueue.push(Array.prototype.slice.call(arguments))},c=a.createElement("script"),c.type="text/javascript",c.charset="utf-8",c.async=!0,c.src="//w.cnzz.com/dplus.define.php",d=a.getElementsByTagName("script")[0],d.parentNode.insertBefore(c,d)}(document,window.dplus);</script>
+     end Dplus Define -->
+
+
+    <!-- 分享描述,start -->
+    <script>
+  var imgShare;
+  $("img").each(function(){
+    if($(this).width()>20){
+      imgShare = $(this).attr("src");
+      return false;
+    }
+  });
+  if(imgShare == '' || imgShare == undefined || imgShare == null){
+    imgShare = "http://console.awu.cn//data/upload/shop/editor/web-124-124-1.png?754";
+  }
+
+  // ls：修改 新人锁粉 修改页面的分享设置
+    // 获取当前页面url参数
+    function getUrlString(name) {
+      var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+      var r = window.location.search.substr(1).match(reg);
+      if (r != null) return unescape(r[2]); return null;
+    }
+  var act= getUrlString('act');
+  var op= getUrlString('op');
+
+ var goodsname="";
+  if(act=='goods'&&(op=='goods_info'||op=='goods_group')){
+      //商品详情页的分享设置
+    var weixin_share_info = {
+       title:"啊屋童装——件件大品牌，天天出厂价！",
+       //商品名
+       desc : goodsname,
+       link : window.location.href,
+       imgUrl: $("#goods-pic .items li:first img").attr("data-url")
+    }
+  }else{
+    // 其他页面的分享设置
+    var weixin_share_info = {
+     title:"啊屋童装——件件大品牌，天天出厂价！",
+     desc : "彰显个性，给孩子阳光的童年！",
+     link : window.location.href,
+     imgUrl: $("img:first").attr("src")
+  }
+  }
+
+
+
+    </script>
+    <script src="http://console.awu.cn/wxshop/templates/default/js/lib/jweixin-1.0.0.js"></script>
+    <script>
+  wx.config({
+    debug: false,
+    appId: 'wxe1c3a9fe9626ef5b',
+    timestamp: '1478829424',
+    nonceStr: '7r827FrHqoiehE04',
+    signature: 'cdf8e32a096c72cf378de8b700cb79c3f5d558bf',
+    jsApiList: [
+      // 所有要调用的 API 都要加到这个列表中
+      'onMenuShareTimeline', 'onMenuShareAppMessage', 'onMenuShareQQ', 'onMenuShareWeibo',
+        'onMenuShareQZone'
+    ]
+  });
+  wx.ready(function () {
+    wx.showOptionMenu();//显示右上角菜单
+
+    wx.onMenuShareTimeline({
+        title: weixin_share_info.desc,
+        // desc: weixin_share_info.desc,
+        // link: weixin_share_info.link + "&unique_agent_member_id=", //TODO:: 商品链接
+        link: weixin_share_info.link, //TODO:: 商品链接
+
+        imgUrl: weixin_share_info.imgUrl,
+        success: function (res) {
+          // alert('已分享');
+        },
+        cancel: function (res) {
+          // alert('已取消');
+        },
+        fail: function (res) {
+          // alert(JSON.stringify(res));
+        }
+      });
+
+      wx.onMenuShareAppMessage({
+        title: weixin_share_info.title,
+        desc: weixin_share_info.desc,
+        // link: weixin_share_info.link, //TODO:: 商品链接
+        // link: weixin_share_info.link + "&unique_agent_member_id=", //TODO:: 商品链接
+        link: weixin_share_info.link, //TODO:: 商品链接
+
+
+        imgUrl: weixin_share_info.imgUrl,
+        success: function (res) {
+          // alert('已分享');
+        },
+        cancel: function (res) {
+          // alert('已取消');
+        },
+      });
+
+    wx.onMenuShareQQ({
+      title: weixin_share_info.title,
+      desc: weixin_share_info.desc,
+      // link: weixin_share_info.link, //TODO:: 商品链接
+      link: weixin_share_info.link, //TODO:: 商品链接
+      imgUrl: weixin_share_info.imgUrl,
+      success: function () {
+         // 用户确认分享后执行的回调函数
+      },
+      cancel: function () {
+         // 用户取消分享后执行的回调函数
+      }
+    });
+    wx.onMenuShareWeibo({
+        title: weixin_share_info.title,
+        desc: weixin_share_info.desc,
+        link: weixin_share_info.link, //TODO:: 商品链接
+        imgUrl: weixin_share_info.imgUrl,
+        success: function () {
+           // 用户确认分享后执行的回调函数
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+    wx.onMenuShareQZone({
+       title: weixin_share_info.title,
+        desc: weixin_share_info.desc,
+        link: weixin_share_info.link, //TODO:: 商品链接
+        imgUrl: weixin_share_info.imgUrl,
+        success: function () {
+           // 用户确认分享后执行的回调函数
+        },
+        cancel: function () {
+            // 用户取消分享后执行的回调函数
+        }
+    });
+  });
+
+    </script>
+    <!-- 分享描述,end--></div>
+</body>
+</html>
+

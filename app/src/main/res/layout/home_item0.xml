@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                        android:layout_width="match_parent"
+                        android:layout_height="80dp"
+                        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:onClick="oneOfImageClick"
+            android:id="@+id/image1_head_home"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_launcher"/>
+
+        <ImageView
+            android:onClick="oneOfImageClick"
+            android:id="@+id/image2_head_home"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_launcher"/>
+
+        <ImageView
+            android:onClick="oneOfImageClick"
+            android:id="@+id/image3_head_home"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_launcher"/>
+
+        <ImageView
+            android:onClick="oneOfImageClick"
+            android:id="@+id/image4_head_home"
+            android:clickable="true"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+            android:src="@mipmap/ic_launcher"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="今日上新"
+            android:layout_height="20dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="韩国版"
+            android:layout_height="20dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="TOP榜单"
+            android:layout_height="20dp"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="全部分类"
+            android:layout_height="20dp"/>
+    </LinearLayout>
+</LinearLayout>

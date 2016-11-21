@@ -1,0 +1,57 @@
+{
+    "statusCode": 200,
+    "statusMsg": "获取成功！",
+    "result": {
+        "moduleList": [
+            {
+                "web_id": "123",
+                "web_name": "首页四大引导",
+                "style_name": "orange",
+                "web_page": "index",
+                "update_time": "1478483437",
+                "web_sort": "91",
+                "web_show": "1",
+                "web_html": null,
+                "web_pic": null,
+                "web_url": "11",
+                "web_cla": "1",
+                "bannerList": [
+                    {
+                        "banner_id": "1",
+                        "banner_title": "今日上新",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=24",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161008-09443069.png",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "2",
+                        "banner_title": "韩国馆",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=51",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161008-09444177.png",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "3",
+                        "banner_title": "TOP榜单",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=58",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161008-09445250.png",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "4",
+                        "banner_title": "全部分类",
+                        "banner_url": "-1",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161008-09450231.png",
+                        "banner_pic": "",
+                        "banner_cla": "4"
+                    }
+                ]
+            }
+        ]
+    },
+    "sign": "lcWw8KQ36FHUBCx3q3IrEMq4XBWqWQ9ZOSEoazjE8iH3Ocd5sValDLSIIye7XBta1EmiZyUMVohq0da6jFqtcPlbquEy8aE81Tj3uOVTit2iktxbf5zwidLC/5eOz6n6JPTov8h9Fn2F2y0oaZi4EWSUqaaYf5S8jb1wPZdShhM=",
+    "timestamp": 1478505325
+}

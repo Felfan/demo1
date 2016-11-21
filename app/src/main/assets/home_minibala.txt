@@ -1,0 +1,73 @@
+{
+    "statusCode": 200,
+    "statusMsg": "获取成功！",
+    "result": {
+        "moduleList": [
+            {
+                "web_id": "130",
+                "web_name": "迷你巴拉巴拉",
+                "style_name": "orange",
+                "web_page": "index",
+                "update_time": "1478483437",
+                "web_sort": "9",
+                "web_show": "1",
+                "web_html": null,
+                "web_pic": "http://image.awu.cn/data/upload/shop/editor/web-130.jpg?612",
+                "web_url": "82",
+                "web_cla": "5",
+                "bannerList": [
+                    {
+                        "banner_id": "1",
+                        "banner_title": "1",
+                        "banner_url": "79342",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-1801067.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "2",
+                        "banner_title": "2",
+                        "banner_url": "71338",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-17412985.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "3",
+                        "banner_title": "3",
+                        "banner_url": "77089",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-17414153.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "4",
+                        "banner_title": "4",
+                        "banner_url": "73135",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-17420153.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "5",
+                        "banner_title": "5",
+                        "banner_url": "71807",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-17421582.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "6",
+                        "banner_title": "6",
+                        "banner_url": "71797",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-17422596.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    "sign": "f12r2a3lHwTY+GhXu0jUpuUXGnQDeiGuqCVCQgPEb/JWmQIwHt6+jf2QxRvzZxjMnZqCKbaKdE6bhA1GThMnNhA+0dOGs78Quzr0FQDkrHUGrUyvigpFBplEKCahzsGQn0fgEWLrNGjUoE2IHzS7W+Jcvo27BY6csBzdnVvjWG0=",
+    "timestamp": 1478505327
+}

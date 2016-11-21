@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Awu</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="titles">
+        <item>婴幼儿</item>
+        <item>亲子装</item>
+        <item>上装</item>
+        <item>下装</item>
+        <item>裙装</item>
+        <item>套装</item>
+        <item>家具装</item>
+        <item>鞋靴</item>
+        <item>配饰</item>
+        <item>玩具教辅</item>
+        <item>搭配</item>
+    </string-array>
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+        <item>保密</item>
+    </string-array>
+    <string-array name="family">
+        <item>爸爸</item>
+        <item>妈妈</item>
+        <item>儿子</item>
+        <item>女儿</item>
+        <item>其他</item>
+    </string-array>
+
+    <string-array name="order">
+        <item>全部订单</item>
+        <item>代付款</item>
+        <item>待发货</item>
+        <item>代收货</item>
+    </string-array>
+</resources>

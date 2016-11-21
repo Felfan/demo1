@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.awu.MatchHtmlActivity">
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <ImageView
+            android:id="@+id/imageView_matchHtmlActivity_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/aliwx_common_back_btn_pressed"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/textView_matchHtmlActivity_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="流行冬靴"
+            android:layout_centerInParent="true"
+            />
+    </RelativeLayout>
+
+    <WebView
+        android:id="@+id/webView_matchHtmlActivity"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        ></WebView>
+
+</LinearLayout>

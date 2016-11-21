@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@mipmap/bg_login">
+
+    <ImageView
+        android:id="@+id/loginSlidMenu_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/crop__ic_cancel"/>
+
+    <Button
+        android:id="@+id/loginSlidMenu_login"
+        android:textColor="@color/white"
+        android:text="进行短信验证"
+        android:layout_centerInParent="true"
+        android:background="@drawable/button_corners"
+        android:layout_width="300dp"
+        android:layout_height="50dp"/>
+
+</RelativeLayout>

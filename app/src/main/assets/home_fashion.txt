@@ -1,0 +1,41 @@
+{
+    "statusCode": 200,
+    "statusMsg": "获取成功！",
+    "result": {
+        "moduleList": [
+            {
+                "web_id": "126",
+                "web_name": "潮流搭配",
+                "style_name": "orange",
+                "web_page": "index",
+                "update_time": "1478483437",
+                "web_sort": "9",
+                "web_show": "1",
+                "web_html": null,
+                "web_pic": null,
+                "web_url": "6",
+                "web_cla": "1",
+                "bannerList": [
+                    {
+                        "banner_id": "1",
+                        "banner_title": "出国游",
+                        "banner_url": "http://console.awu.cn/data/upload/special/1475222594/parent_child.html",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161011-10534595.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "6"
+                    },
+                    {
+                        "banner_id": "2",
+                        "banner_title": "古镇游",
+                        "banner_url": "http://console.awu.cn/data/upload/special/1474626296/pattern.html",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161011-10553329.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "6"
+                    }
+                ]
+            }
+        ]
+    },
+    "sign": "TIKN3y374lKU17gotIe1HhMgVDbrT8hWIx93UHn/uwzNIO0tRcZ1rIdc3SNPd3ZyJ0jTfTLRlskSrRAR6KXvFSfBz82t934+kBiUqzkGEDpx7yX/AtH4MCy3nEnCkcT0oZQbDRoQoLsIsDN7EDK4DnzJwO/eJm0kKTbV5ON6NRs=",
+    "timestamp": 1478505326
+}

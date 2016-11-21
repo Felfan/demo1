@@ -1,0 +1,57 @@
+{
+    "statusCode": 200,
+    "statusMsg": "获取成功！",
+    "result": {
+        "moduleList": [
+            {
+                "web_id": "124",
+                "web_name": "首页促销区(使用)",
+                "style_name": "orange",
+                "web_page": "index",
+                "update_time": "1478483437",
+                "web_sort": "9",
+                "web_show": "1",
+                "web_html": null,
+                "web_pic": null,
+                "web_url": null,
+                "web_cla": "1",
+                "bannerList": [
+                    {
+                        "banner_id": "1",
+                        "banner_title": "办理会员卡",
+                        "banner_url": "http://console.awu.cn/data/upload/home/index/aboutMember/",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20160914-18000169.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "6"
+                    },
+                    {
+                        "banner_id": "2",
+                        "banner_title": "非常大牌",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=180",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161008-09143194.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "3",
+                        "banner_title": "聚便宜",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=110",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161008-09151481.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "4",
+                        "banner_title": "特价清仓",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=100",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161008-09154661.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "sign": "V/SDM0EUWDtFCQ19UjCRuCIFDPezqSk1oeLwpADvORjUW50GBsaLnzlbxlHkq9ClTsnhNEUHRcQ6DrytS64rk7F6HetNp2Ya4O8Wz44Y39dhEOuwyinLApP59EJj66PFOzajda+9nuSi+RMnTg4aKemnE5sZ+v4MKzYl+g/gG5g=",
+    "timestamp": 1478505326
+}

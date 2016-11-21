@@ -1,0 +1,36 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context="fragments.OrderAcceptFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#dad7d7"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:src="@mipmap/no_data_order_icon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="啊哦，您还没有相关订单"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>s
+        <Button
+            android:onClick="btnSend"
+            android:layout_marginTop="15dp"
+            android:text="去逛逛"
+            android:textColor="@color/white"
+            android:background="@drawable/button_shape2"
+            android:layout_width="150dp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+</FrameLayout>

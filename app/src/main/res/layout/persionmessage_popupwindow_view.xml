@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"
+    android:orientation="vertical"
+    android:paddingBottom="2dp">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2.25dp"
+        android:background="#8f9bf4"
+        android:layout_alignParentTop="true"/>
+
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/pop_camera"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="拍照"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#d7d5d5"/>
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/pop_openPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="打开手机相册"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:background="#d7d5d5"/>
+    <TextView
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:gravity="center"
+        android:id="@+id/pop_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="取消"/>
+</LinearLayout>

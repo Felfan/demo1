@@ -1,0 +1,65 @@
+{
+    "statusCode": 200,
+    "statusMsg": "获取成功！",
+    "result": {
+        "moduleList": [
+            {
+                "web_id": "101",
+                "web_name": "首页头部焦点图片",
+                "style_name": "orange",
+                "web_page": "index_pic",
+                "update_time": "1478483437",
+                "web_sort": "100",
+                "web_show": "1",
+                "web_html": null,
+                "web_pic": null,
+                "web_url": null,
+                "web_cla": "1",
+                "bannerList": [
+                    {
+                        "banner_id": "1",
+                        "banner_title": "非常大牌第17期，全场包邮9.9元起",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=180",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161102-09585519.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "4",
+                        "banner_title": "气温骤降穿什么？我家宝贝还缺一件暖黄色大衣！",
+                        "banner_url": "http://console.awu.cn/data/upload/special/1477651196/warmyellowcoat.html",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161031-18080234.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "6"
+                    },
+                    {
+                        "banner_id": "2",
+                        "banner_title": "羽绒服专场",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=173",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161101-09162431.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    },
+                    {
+                        "banner_id": "3",
+                        "banner_title": "爸爸去哪儿4同款搭配大揭秘！",
+                        "banner_url": "http://console.awu.cn/data/upload/special/1477048282/wheredadgo.html",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161024-10433262.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "6"
+                    },
+                    {
+                        "banner_id": "5",
+                        "banner_title": "69-99元秋冬新品 全场包邮",
+                        "banner_url": "http://console.awu.cn/shop/index.php?act=zts&zt_id=172",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161028-09493580.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "2"
+                    }
+                ]
+            }
+        ]
+    },
+    "sign": "nWU6O5xe0o5Tzsqwth1evnIqRwSSCq9e34kXv2q8lkKqc9kN9TeL+T9gpgQqxm7jvpU5h0zsubogTukxkVc/tQQzsZowknDhU6oriiVf7hNFWSe+OElub136ioPs/XoKx7Igf1CAShu3e78jgEBvy0J1+8JPBgZ9/8UP+FWM8wk=",
+    "timestamp": 1478491045
+}

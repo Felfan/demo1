@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<myviews.launcher.LauncherView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/gray"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+    <!--<ImageView-->
+        <!--android:id="@+id/imageview_splash"-->
+        <!--android:src="@drawable/sl_start_show1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"/>-->
+<!--    <myviews.launcher.LauncherView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </myviews.launcher.LauncherView>-->
+</myviews.launcher.LauncherView>

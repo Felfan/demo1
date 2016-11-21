@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="@drawable/return_cash_dialog_bg"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.awu.HomeMemberActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView_homeMember_back"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            android:onClick="back"
+            android:scaleType="fitStart"
+            android:src="@mipmap/aliwx_common_back_btn_pressed"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="办理会员卡"
+            android:textSize="18dp"
+            />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="3dp"
+            android:layout_weight="1"
+         />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+
+    <ImageView
+        android:scaleType="centerCrop"
+        android:src="@drawable/about_vip_head_img"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"/>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:src="@drawable/ic_launcher_square"
+            android:scaleType="centerInside"
+            android:layout_width="30dp"
+            android:layout_height="28dp"/>
+        <TextView
+            android:layout_marginLeft="3dp"
+            android:text="啊屋会员免费体验"
+            android:textColor="@color/black"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <View
+        android:layout_marginLeft="48dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+    <TextView
+        android:layout_marginTop="3dp"
+        android:text="会员享受正品底价，新用户注册就可免费领取30天会员体验。"
+        android:layout_marginLeft="48dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_marginLeft="48dp"
+        android:textColor="@color/yellow"
+        android:text="(活动只限参加一次哦)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:padding="15dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/about_vip_worth_img"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/button_homeMember"
+            android:onClick="toMember"
+            android:text="成为正式会员"
+            android:background="@drawable/button_shape2"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+</LinearLayout>

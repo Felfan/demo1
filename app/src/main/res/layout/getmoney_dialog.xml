@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+              android:layout_width="wrap_content"
+              android:layout_height="240dp"
+              >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="6dp"
+        android:text="提现说明"
+        android:textSize="25dp"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="38dp"
+        android:background="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="58dp"
+        android:text="1.提现支付宝时，请仔细确认支付宝号和真实姓名信息，当两者信息不符合时，我们将拒绝提现申请，并将扣除的余额打回原有账户
+2.您申请提现后，啊屋余额账户的款项预先扣除，而后我们将在3-5个工作日内将提现的钱打入您的账户"
+    />
+    <Button
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/order"
+        android:text="确定"
+        android:textColor="@color/white"/>
+</RelativeLayout>

@@ -1,0 +1,73 @@
+{
+    "statusCode": 200,
+    "statusMsg": "获取成功！",
+    "result": {
+        "moduleList": [
+            {
+                "web_id": "128",
+                "web_name": "南极人",
+                "style_name": "orange",
+                "web_page": "index",
+                "update_time": "1478483437",
+                "web_sort": "9",
+                "web_show": "1",
+                "web_html": null,
+                "web_pic": "http://image.awu.cn/data/upload/shop/editor/web-128.jpg?265",
+                "web_url": "23",
+                "web_cla": "5",
+                "bannerList": [
+                    {
+                        "banner_id": "1",
+                        "banner_title": "1",
+                        "banner_url": "119185",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161024-1616106.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "2",
+                        "banner_title": "2",
+                        "banner_url": "119167",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161024-16163362.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "3",
+                        "banner_title": "3",
+                        "banner_url": "119126",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161024-16165669.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "4",
+                        "banner_title": "4",
+                        "banner_url": "119132",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161024-16171282.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "5",
+                        "banner_title": "5",
+                        "banner_url": "119377",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161024-16172885.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "6",
+                        "banner_title": "6",
+                        "banner_url": "119387",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161024-16174447.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    "sign": "tSq+bnTtOFT2WVJLCNEQSAIF64iG8Ri4IdMx1aOdZHB3PGQtcd9KGTXW5jRI70wNplyw8VS3kKkVccPTZNTd6dnzjoFmlwnBHk4qHW8vyv0gycXCFYhdXHeLV4VO/G4NlZBJpw4MA+/6lkYIszip16MWrlGs+InkxtqdEGp5kWA=",
+    "timestamp": 1478505326
+}

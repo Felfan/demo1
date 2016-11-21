@@ -1,0 +1,483 @@
+{
+  "statusCode": 200,
+  "statusMsg": "获取成功！",
+  "result": {
+    "relation_goods_list": [],
+    "goods_info": {
+      "goods_commonid": "10691",
+      "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴",
+      "goods_recommend_reason": "",
+      "gc_id": "45",
+      "gc_name": "童装服饰 &gt;鞋靴 &gt;棉鞋/靴子",
+      "store_id": "37",
+      "store_name": "KT猫",
+      "spec_name": [
+        "颜色",
+        "尺寸"
+      ],
+      "brand_id": "67",
+      "brand_name": "Hello Kitty",
+      "goods_body": "<img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864523347876_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864603688969_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864595115275_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864590986688_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864587093911_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864599421775_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864549763847_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864612298427_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864607043799_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864629222654_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864634550228_1280.jpg\" alt=\"image\" /><img src=\"http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864644428572_1280.jpg\" alt=\"image\" />",
+      "goods_price": "159.00",
+      "goods_marketprice": "359.00",
+      "goods_costprice": "98.00",
+      "return_price": "0.00",
+      "goods_freight": "10.00",
+      "goods_guide": null,
+      "goods_state": "1",
+      "goods_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315864392997712_750.jpg",
+      "goods_collect": "0",
+      "is_collected": 0,
+      "spec_value": [
+        [
+          "粉色",
+          "黑色",
+          "红色"
+        ],
+        [
+          "26",
+          "27",
+          "28",
+          "29",
+          "30",
+          "31",
+          "32",
+          "33",
+          "34",
+          "35"
+        ]
+      ],
+      "goods_assemble": [
+        {
+          "goods_id": "129862",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 26",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "26"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129863",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 27",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "27"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129864",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 28",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "28"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129865",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 29",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "29"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129866",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 30",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "30"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129867",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 31",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "31"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129868",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 32",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "32"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129869",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 33",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "33"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129870",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 34",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "34"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129871",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 粉色 35",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "粉色",
+            "35"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg"
+        },
+        {
+          "goods_id": "129872",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 26",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "26"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129873",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 27",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "27"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129874",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 28",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "28"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129875",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 29",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "29"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129876",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 30",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "30"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129877",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 31",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "31"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129878",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 32",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "32"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129879",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 33",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "33"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129880",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 34",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "34"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129881",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 黑色 35",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "黑色",
+            "35"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865121977793_750.jpg"
+        },
+        {
+          "goods_id": "129882",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 26",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "26"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129883",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 27",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "27"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129884",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 28",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "28"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129885",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 29",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "29"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129886",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 30",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "30"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129887",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 31",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "31"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129888",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 32",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "32"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129889",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 33",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "33"
+          ],
+          "goods_storage": "0",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129890",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 34",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "34"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        },
+        {
+          "goods_id": "129891",
+          "goods_name": "Hello Kitty 16秋冬新品儿童加绒 中筒靴 红色 35",
+          "goods_price": "159.00",
+          "goods_marketprice": "359.00",
+          "goods_costprice": "98.00",
+          "goods_spec": [
+            "红色",
+            "35"
+          ],
+          "goods_storage": "20",
+          "return_price": "0.00",
+          "spec_image": "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865141403053_750.jpg"
+        }
+      ],
+      "goods_image_mobile": [
+        "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865104393770_750.jpg",
+        "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865163467385_750.jpg",
+        "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865178059358_750.jpg",
+        "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865190369014_750.jpg",
+        "http://image.awu.cn/data/upload/shop/store/goods/37/37_05315865207718566_750.jpg"
+      ]
+    }
+  },
+  "sign": "WWBCTauM5lLW71jukqQ9vJorLSNyD/xMciSPJNHR9ptPWSvDa7H1XnzfoxjPbAqRgfNrv1uJ0G7KvqaY1EiiucJItlqtbQfcv1qRhJORAVe3ILFqpautB4j6cMvQ0Nc7HO4atfOtP3h9NXPnfh7UZRdserbrgfOnIKLz4yv6EJo=",
+  "timestamp": 1478664147
+}

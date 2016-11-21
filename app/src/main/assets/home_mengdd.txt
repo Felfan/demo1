@@ -1,0 +1,73 @@
+{
+    "statusCode": 200,
+    "statusMsg": "获取成功！",
+    "result": {
+        "moduleList": [
+            {
+                "web_id": "127",
+                "web_name": "梦多多",
+                "style_name": "purple",
+                "web_page": "index",
+                "update_time": "1478483437",
+                "web_sort": "9",
+                "web_show": "1",
+                "web_html": null,
+                "web_pic": "http://image.awu.cn/data/upload/shop/editor/web-127.jpg?994",
+                "web_url": "81",
+                "web_cla": "5",
+                "bannerList": [
+                    {
+                        "banner_id": "1",
+                        "banner_title": "1",
+                        "banner_url": "84407",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-17583899.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "2",
+                        "banner_title": "2",
+                        "banner_url": "127083",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-18214880.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "3",
+                        "banner_title": "3",
+                        "banner_url": "111716",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-18014490.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "4",
+                        "banner_title": "4",
+                        "banner_url": "111587",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-18015666.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "5",
+                        "banner_title": "5",
+                        "banner_url": "104965",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-17391012.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    },
+                    {
+                        "banner_id": "6",
+                        "banner_title": "6",
+                        "banner_url": "127045",
+                        "banner_img": "http://image.awu.cn/data/upload/shop/editor/20161104-18220774.jpg",
+                        "banner_pic": "",
+                        "banner_cla": "1"
+                    }
+                ]
+            }
+        ]
+    },
+    "sign": "lUs5NwcyrEhtpm8vlgRjv7KHLhUCk6dzMN0oFHo9TewCysbsr/6q9D1JEb8Q/DqhZg7ctfLf+HBhRXDLDZb8jAaM16iZMwd7hvWFD+9tZHfy6YSPUUSHxYByC/wYAS2Uxn3m50NFIo70TF3xGZnHhC3oU06dabszj7CsSkYTbZY=",
+    "timestamp": 1478505326
+}
